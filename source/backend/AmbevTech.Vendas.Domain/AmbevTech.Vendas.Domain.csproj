@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\AmbevTech.Vendas.Exceptions\AmbevTech.Vendas.Exceptions.csproj" />
+    <ProjectReference Include="..\..\shared\AmbevTech.Vendas.Comunication\AmbevTech.Vendas.Comunication.csproj" />
+    <ProjectReference Include="..\AmbevTech.Vendas.Domain.Model\AmbevTech.Vendas.Domain.Model.csproj" />
+  </ItemGroup>
+
+</Project>

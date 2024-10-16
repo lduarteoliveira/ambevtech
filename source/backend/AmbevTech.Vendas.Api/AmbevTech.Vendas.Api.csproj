@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\AmbevTech.Vendas.Exceptions\AmbevTech.Vendas.Exceptions.csproj" />
+    <ProjectReference Include="..\..\shared\AmbevTech.Vendas.Comunication\AmbevTech.Vendas.Comunication.csproj" />
+    <ProjectReference Include="..\AmbevTech.Vendas.Domain\AmbevTech.Vendas.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
