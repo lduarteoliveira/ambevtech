@@ -1,6 +1,1 @@
 @AmbevTech.Vendas.Api_HostAddress = http://localhost:5089
-
-GET {{AmbevTech.Vendas.Api_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

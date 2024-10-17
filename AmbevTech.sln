@@ -11,17 +11,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{B0AD
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{E7B67F65-E787-4F3A-9389-3ECF82729BDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmbevTech.Vendas.Api", "source\backend\AmbevTech.Vendas.Api\AmbevTech.Vendas.Api.csproj", "{E4D95D7C-820F-4F79-8C7F-511957B5A70C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmbevTech.Vendas.Api", "source\backend\AmbevTech.Vendas.Api\AmbevTech.Vendas.Api.csproj", "{E4D95D7C-820F-4F79-8C7F-511957B5A70C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmbevTech.Vendas.Domain", "source\backend\AmbevTech.Vendas.Domain\AmbevTech.Vendas.Domain.csproj", "{F9F42A80-EF39-452B-AB93-2262DE0A7D07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmbevTech.Vendas.Domain", "source\backend\AmbevTech.Vendas.Domain\AmbevTech.Vendas.Domain.csproj", "{F9F42A80-EF39-452B-AB93-2262DE0A7D07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmbevTech.Vendas.Domain.Model", "source\backend\AmbevTech.Vendas.Domain.Model\AmbevTech.Vendas.Domain.Model.csproj", "{08A5A6EF-3CA0-4269-8286-274B8817A61C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmbevTech.Vendas.Domain.Model", "source\backend\AmbevTech.Vendas.Domain.Model\AmbevTech.Vendas.Domain.Model.csproj", "{08A5A6EF-3CA0-4269-8286-274B8817A61C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmbevTech.Vendas.Infra", "source\backend\AmbevTech.Vendas.Infra\AmbevTech.Vendas.Infra.csproj", "{9492BD58-89D4-490F-9475-85D17034495C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmbevTech.Vendas.Infra", "source\backend\AmbevTech.Vendas.Infra\AmbevTech.Vendas.Infra.csproj", "{9492BD58-89D4-490F-9475-85D17034495C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmbevTech.Vendas.Comunication", "source\shared\AmbevTech.Vendas.Comunication\AmbevTech.Vendas.Comunication.csproj", "{25BC0793-8809-40E0-AE22-4C44FD92EAB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmbevTech.Vendas.Comunication", "source\shared\AmbevTech.Vendas.Comunication\AmbevTech.Vendas.Comunication.csproj", "{25BC0793-8809-40E0-AE22-4C44FD92EAB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmbevTech.Vendas.Exceptions", "AmbevTech.Vendas.Exceptions\AmbevTech.Vendas.Exceptions.csproj", "{D5A99974-90D3-4E53-B040-3D85F032A916}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmbevTech.Vendas.Exceptions", "source\shared\AmbevTech.Vendas.Exceptions\AmbevTech.Vendas.Exceptions.csproj", "{B5D3AB14-948A-4BEF-AC9C-9F0E12BD252B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,10 +49,10 @@ Global
 		{25BC0793-8809-40E0-AE22-4C44FD92EAB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25BC0793-8809-40E0-AE22-4C44FD92EAB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25BC0793-8809-40E0-AE22-4C44FD92EAB6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D5A99974-90D3-4E53-B040-3D85F032A916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D5A99974-90D3-4E53-B040-3D85F032A916}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D5A99974-90D3-4E53-B040-3D85F032A916}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D5A99974-90D3-4E53-B040-3D85F032A916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5D3AB14-948A-4BEF-AC9C-9F0E12BD252B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D3AB14-948A-4BEF-AC9C-9F0E12BD252B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D3AB14-948A-4BEF-AC9C-9F0E12BD252B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D3AB14-948A-4BEF-AC9C-9F0E12BD252B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,7 +65,7 @@ Global
 		{08A5A6EF-3CA0-4269-8286-274B8817A61C} = {B0AD5CBE-12FD-464B-8A30-7E686787E154}
 		{9492BD58-89D4-490F-9475-85D17034495C} = {B0AD5CBE-12FD-464B-8A30-7E686787E154}
 		{25BC0793-8809-40E0-AE22-4C44FD92EAB6} = {E7B67F65-E787-4F3A-9389-3ECF82729BDC}
-		{D5A99974-90D3-4E53-B040-3D85F032A916} = {E7B67F65-E787-4F3A-9389-3ECF82729BDC}
+		{B5D3AB14-948A-4BEF-AC9C-9F0E12BD252B} = {E7B67F65-E787-4F3A-9389-3ECF82729BDC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F9D38781-D751-462B-B5F0-25E8E7207C28}
